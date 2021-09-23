@@ -1,10 +1,6 @@
 <?php
-
-class PlantillaController{
-
+class ControllerPlantilla{
     public function plantilla(){
-    include "view/plantilla.php";
-
-    };
-
-};
+        include "view/plantilla.php";
+    }
+}
