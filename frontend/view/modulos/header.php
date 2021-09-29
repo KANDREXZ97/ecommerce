@@ -41,19 +41,146 @@
                     </li>
                 </ul>
             </div>
-            <header class="container-fluid">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
-                            <a href="#" >
-                                <img src="http://localhost/backend/view/img/plantilla/logo.png" alt="" class="img-responsive">
-                            </a>
-
-                        </div>
-                    </div>
-                </div>
-            </header>
+            
 
         </div>
     </div>
 </div>
+<header class="container-fluid">
+    <div class="container">
+        <div class="row" id="cabecera">
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
+                <a href="#" >
+                    <img src="http://localhost/backend/view/img/plantilla/logo.png" alt="" class="img-responsive">
+                </a>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 backColor" id="btnCategorias" >
+                    <p>CATEGORIAS
+                        <span class="pull-right">
+                            <i class=" fa  fa-bars" aria-hidden="true"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="input-group col-lg-8 col-md-8 col-sm-8 col-xs-12" id="buscador">
+                    <input type="search" name="buscar" class="form-control" placeholder="Buscar..." >
+                    <span class="input-group-btn">
+                        <a href="#">
+                            <button class="btn btn-default backColor" type="submit">
+                                <i class=" fa fa-search" aria-hidden="true"></i>
+                                
+                            </button>
+                        </a>
+                    </span>
+                </div>
+            </div>
+           <!--=====================================
+			CARRITO DE COMPRAS
+			======================================-->
+
+			<div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="carrito">
+				
+				<a href="#">
+
+					<button class="btn btn-default pull-left backColor"> 
+						
+						<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+					
+					</button>
+				
+				</a>	
+
+				<p>TU CESTA <span class="cantidadCesta">3</span> <br> USD $ <span class="sumaCesta">20</span></p>	
+
+			</div>
+
+        </div>
+        	<!--=====================================
+		CATEGORÍAS
+		======================================-->
+
+		<div class="col-xs-12 backColor" id="categorias">
+			
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				
+				<h4>
+					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
+				</h4>
+				
+				<hr>
+
+				<ul>
+					
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+								
+				</ul>
+
+			</div>	
+
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				
+				<h4>
+					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
+				</h4>
+				
+				<hr>
+
+				<ul>
+					
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+								
+				</ul>
+
+			</div>	
+
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				
+				<h4>
+					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
+				</h4>
+				
+				<hr>
+
+				<ul>
+					
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+								
+				</ul>
+
+			</div>	
+
+			<div class="col-lg-2 col-md-3 col-sm-4 col-xs-12">
+				
+				<h4>
+					<a href="#" class="pixelCategorias">Lorem Ipsum</a>
+				</h4>
+				
+				<hr>
+
+				<ul>
+					
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+					<li><a href="#" class="pixelSubCategorias">Lorem Ipsum</a></li>
+								
+				</ul>
+
+			</div>	
+
+		</div>
+    </div>
+</header>
