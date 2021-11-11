@@ -51,7 +51,7 @@
         <div class="row" id="cabecera">
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-12" id="logotipo">
                 <a href="#" >
-                    <img src="http://localhost/backend/view/img/plantilla/logo.png" alt="" class="img-responsive">
+                    <img src="http://localhost/ecommerce/backend/view/img/plantilla/logo.png" alt="" class="img-responsive">
                 </a>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-8 col-xs-12">

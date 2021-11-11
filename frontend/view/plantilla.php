@@ -14,15 +14,27 @@
 
 	<title>Tienda Virtual</title>
 	<link rel="stylesheet" href="view/css/plugins/bootstrap.min.css">
+
 	<link rel="stylesheet" href="view/css/plugins/font-awesome.min.css">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet"> 
+
+	<link rel="stylesheet" href="view/css/plantilla.css">
+
+	<link rel="stylesheet" href="view/css/header.css">
+
 	<script src="view/js/plugins/jquery.min.js"></script>
+
 	<script src="view/js/plugins/bootstrap.min.js"></script>
+
+
 </head>
 
 <body>
 
 <?php
-
 /*=============================================
 CABEZOTE
 =============================================*/
@@ -30,6 +42,7 @@ CABEZOTE
 include "modulos/header.php";
 
 ?>
+	<script src="view/js/header.js"></script>
 
 
 </body>
